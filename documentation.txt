@@ -1,0 +1,83 @@
+USER ==============================================================================================
+## CREATE
+localhost:3000/v1/user/create
+{
+	"user_name":"Garvit",
+	"email":"dhameliysgarvit@gmail.com",
+	"password":"123456garvit",
+	"profile_info":"admin"
+}
+## LIST
+localhost:3000/v1/user/list
+## UPDATE
+localhost:3000/v1/user/update/:userId
+## DELETE
+localhost:3000/v1/user/delete/:userId
+
+
+ADMIN ==============================================================================================
+## CREATE
+localhost:4000/v1/admin/create
+{
+	"admin_name":"Hinal Savaliya",
+	"username":"hinal savaliya",
+         "password":"bnw_123",
+}
+## LIST
+localhost:4000/v1/admin/list
+## UPDATE
+localhost:4000/v1/admin/update/:adminId
+## DELETE
+localhost:4000/v1/admin/delete/:adminId
+
+
+SUB ADMIN ==============================================================================================
+## CREATE
+localhost:4000/v1/subadmin/create
+{
+	"subadmin_name":"Dhara Laheri",
+	"username":"Dhara",
+        "password":"bnw_456"
+}
+## LIST
+localhost:4000/v1/subadmin/list
+## UPDATE
+localhost:4000/v1/subadmin/update/:subadminId
+## DELETE
+localhost:4000/v1/subadmin/delete/:subadminId
+
+
+FACULTY ==============================================================================================
+## CREATE
+localhost:4000/v1/faculty/create
+{
+	"faculty_name":"Garvit Dhameliya",
+	"department":"department",
+	"username":"Purva",
+        "password":"bnw_faculty",
+        "gender":"female"
+}
+## LIST
+localhost:4000/v1/faculty/list
+## UPDATE
+localhost:4000/v1/faculty/update/:facultyId
+## DELETE
+localhost:4000/v1/faculty/delete/:facultyId
+
+
+STUDENT ==============================================================================================
+## CREATE
+localhost:4000/v1/student/create
+{
+	"student_name":"Purva Ratanpara",
+	"course":"Full dev",
+        "enrollment_number":"P32543267s214",
+        "gr_id":"2873".
+        "password":"bnw_student"
+}
+## LIST
+localhost:4000/v1/student/list
+## UPDATE
+localhost:4000/v1/student/update/:studentId
+## DELETE
+localhost:4000/v1/student/delete/:studentId
