@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="project_logo.png" alt="Project Logo">
-</p>
-
 <h1 align="center">ERP System Project</h1>
 
 <div align="center">
